@@ -1,0 +1,17 @@
+{
+  "name": "cding",
+  "version": "1.0.0",
+  "description": "A lightweight code snippet manager for organizing notes and reusable code examples.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "code",
+    "snippets",
+    "notes",
+    "productivity"
+  ],
+  "license": "MIT"
+}

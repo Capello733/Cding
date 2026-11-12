@@ -1,18 +1,19 @@
 # Cding
 
-Cding is a lightweight code snippet manager built with Node.js. It lets you save snippets, tag them by language, and review them quickly in a simple browser-based dashboard.
+Cding is a lightweight code snippet manager for saving, searching, and organizing reusable code snippets.
 
 ## Features
 
-- Add snippets with a title, language, description, and code block
-- Search existing snippets by title or language
+- Add snippets with a title, language, description, and code
+- Search snippets by title, description, or language
 - Delete snippets you no longer need
-- Persistent storage in a local JSON file
-- No external dependencies required
+- Save data locally with no external database required
+- Simple browser UI
 
 ## Run locally
 
 ```bash
+npm install
 npm start
 ```
 
@@ -26,6 +27,6 @@ npm test
 
 ## Project structure
 
-- `src/server.js` — HTTP server and API layer
-- `public/` — frontend UI assets
-- `data/snippets.json` — persisted snippet storage
+- `src/server.js` — Node.js HTTP server and API
+- `public/` — frontend files
+- `data/snippets.json` — local snippet storage

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "example-1",
+    "title": "Fetch data",
+    "language": "javascript",
+    "description": "Simple fetch call to an API endpoint.",
+    "code": "fetch('/api/snippets')\n  .then(res => res.json())\n  .then(data => console.log(data));",
+    "createdAt": "2026-11-12T00:00:00.000Z"
+  }
+]

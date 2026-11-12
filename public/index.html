@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cding</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div>
+          <h1>Cding</h1>
+          <p>Save and manage your code snippets</p>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel composer">
+          <h2>Add snippet</h2>
+          <form id="snippet-form">
+            <input id="title" type="text" placeholder="Title" required />
+            <input id="language" type="text" placeholder="Language" value="javascript" />
+            <textarea id="description" rows="2" placeholder="Short description"></textarea>
+            <textarea id="code" rows="11" placeholder="Paste code here..." required></textarea>
+            <button type="submit">Save snippet</button>
+          </form>
+        </section>
+
+        <section class="panel list-panel">
+          <div class="toolbar">
+            <h2>Snippets</h2>
+            <input id="search" type="search" placeholder="Search..." />
+          </div>
+          <div id="snippet-list" class="snippet-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
